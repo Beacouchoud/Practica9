@@ -15,12 +15,37 @@
             p{
                 color: brown;
             }
+            table, td, tr{
+                border: 1px solid brown;
+                color: brown;
+                font-weight: bold;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            }
+            table{
+                width: 100%;
+            }
+            th{
+                background-color: #E8C8A2;
+                border: 1px solid brown;
+                color: brown;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+            }
+            caption{
+                color: black;
+                font-family:'Times New Roman', Times, serif;
+                font-size: 120%;
+                padding: 20px;
+            }
+            p#UltMod{
+                color: black;
+            }
     </style>
 </head>
 <body>
     <header>
         <h1>El Café</h1>
     </header>
+    <main>
     <section>
         <article>
             <p>Café Las Horas ha sido pensado para convertirse en un lugar tranquilo, relajado y discreto.
@@ -29,13 +54,54 @@
                 pensado para personas de buen paladar pero que disponen, a veces, de poco tiempo para dsfrutar
                 de una cocina donde la calidad y esencia del producto son imprescindibles.
             </p>
-            <p>La planta que acoge el restaurante tiene tres espacios diferenciados, un primero en la entrada que funciona
-                como terraza, seguido de la barra, y un tercero donde esta situado el comedor
-                que se divide en dos por unas columnas. Cuenta además con una barra de ostras, y se ha destinado un espaacio
-                al fondo como pequeña boulangerie. Café Las Horas tiene una capacidad para 100 comensales y cuenta con un 
-                equipo formado por 14 personas.
-            </p>
         </article>
     </section>
-    
+    <hr>
+    <section>
+        <table>
+            <caption>Premios Obtenidos</caption>
+            <tr>
+              <th>2017</th>
+              <td>Premio a la mejor Paella</td>
+              <td>Premio al mejor Desayuno</td>
+            </tr>
+            <tr>
+              <th>2018</th>
+              <td>Mejor Desayuno TripAdvisor</td>
+              <td>Mejor Chocolate de Valencia</td>
+            </tr>
+        </table>  
+    </section>
+    <section>
+        <table>
+            <caption>Actividades del Mes</caption>
+                <tr>
+                    <th>Miércoles</th>
+                    <td>Premio a la mejor Paella</td>
+                </tr>
+                <tr>
+                    <th>Jueves</th>
+                    <td>Mejor Chocolate de Valencia</td>
+                </tr>
+                <tr>
+                    <th>Viernes</th>
+                    <td>Mejor Chocolate de Valencia</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Charlas de introducción a la preparación de cocktails (todos los días).
+                    </td>
+                </tr>
+        </table>  
+    </section>
+    <hr>
+    </main>
+    <footer>
+        <address>
+            Autor: Bea Couchoud <br>
+            Correo: beacouchoud@gmail.com <br>
+            Última modificación: 5 de noviembre del 2018
+        </address>
+        
+    </footer>
 </body>
